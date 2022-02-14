@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { textContent } from 'src/app/utility/content';
 
 @Component({
   selector: 'app-home-products',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home-products.component.css']
 })
 export class HomeProductsComponent implements OnInit {
+  ourProductContent: any = textContent.home.ourProduct;
   productData:any=[
     {
       img: '../../../assets/images/products/Fizzy Logic-4.png',

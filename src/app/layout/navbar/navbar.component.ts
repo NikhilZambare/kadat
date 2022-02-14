@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { textContent } from 'src/app/utility/content';
 import { MENU } from 'src/app/utility/menu';
 
 @Component({
@@ -7,7 +8,7 @@ import { MENU } from 'src/app/utility/menu';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
-
+  contactNumber: any = textContent.contact.phone;
   menuList: any = MENU;
   constructor() { }
 

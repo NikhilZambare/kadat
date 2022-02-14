@@ -2,15 +2,11 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-12 col-lg-6">
-                <h2 class="title">
-                    Contact Us
-                </h2>
-                <p class="dsc">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-                </p>
+                <h2 class="title">{{contactContent.banner.title}}</h2>
+                <p class="dsc">{{contactContent.banner.dsc}}</p>
             </div>
             <div class="col-md-6 col-sm-12 col-lg-6">
-                <img src="../../assets/images/contact-img.png" alt="" class="img-fluid" srcset="">
+                <img [src]="contactContent.banner.bannerImg" [alt]="contactContent.banner.title" class="img-fluid" srcset="">
             </div>
         </div>
     </div>
@@ -24,15 +20,15 @@
             <div class="col-md-4">
                 <div class="contact-data">
                     <p class="title">Location</p>
-                    <p class="dsc">Jln Cempaka Wangi No 22, Jakarta - Indonesia</p>
+                    <p class="dsc">{{contactContent.location}}</p>
                 </div>
                 <div class="contact-data">
                     <p class="title">Phone</p>
-                    <p class="dsc">+91 0120120120</p>
+                    <p class="dsc">{{contactContent.phone}}</p>
                 </div>
                 <div class="contact-data">
                     <p class="title">Mail</p>
-                    <p class="dsc">test@mail.com</p>
+                    <p class="dsc">{{contactContent.mail}}</p>
                 </div>
             </div>
         </div>
