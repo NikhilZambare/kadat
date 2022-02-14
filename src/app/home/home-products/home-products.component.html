@@ -1,0 +1,21 @@
+<section id="services" class="products-section">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up">
+        <h2 class="products-section-title">Our <span class="orange">Products</span></h2>
+        <p class="products-section-dsc">Magnam dolores commodi suscipit eius consequatur ex aliquid fug</p>
+      </div>  
+      <div class="row">
+        <div class="col-md-6 col-lg-3" *ngFor="let product of productData">
+          <div class="products mb-3">
+            <img [src]="product.img" alt="">
+            <div class="products-data">
+              <span class="type">{{product.type}}</span>
+              <h3 class="products-title">{{product.name}}</h3>
+              <p class="products-price">{{product.price}}</p>
+              <button class="products-btn w-100 mb-2">Send Enquiry</button>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+</section>

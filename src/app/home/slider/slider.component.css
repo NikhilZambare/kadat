@@ -1,0 +1,111 @@
+
+.carousel-control-next, .carousel-control-prev {
+    width: 10% !important;
+}
+.carousel-slide {
+    min-height: 400px;
+    padding: 50px;
+}
+.slide-one{
+    background: #ff991f;
+    background-image: url(../../../assets/images/slide-one-sbg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p-10{
+    padding: 10px;
+}
+.slide-one h2{
+    font-size: 50px;
+    color: white;
+    font-weight: 800;
+}
+.slide-one p{
+    font-size: 16px;
+    color: #404040;
+    font-weight: 500;
+}
+.slide-one-btn{
+    padding: 0.65rem 2.5rem;
+    font-size: 18px;
+    margin-top: 12px;
+    margin-left: 30px;
+    border-radius: 50px;
+    color: #f98d2a;
+    background-color: #323232;
+    border: 0px;
+    transition-duration: 0.3s;
+    font-weight: 500;
+}
+.slide-one-btn:hover{
+    background-color: #ffffff;
+}
+
+/* slide two */
+.slide-two{
+    background: #1fa5ff;
+    background-image: url(../../../assets/images/slide-two-bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slide-two h2{
+    font-size: 50px;
+    color: white;
+    font-weight: 800;
+}
+.slide-two p{
+    font-size: 16px;
+    color: #404040;
+    font-weight: 500;
+}
+.slide-two-btn{
+    padding: 0.65rem 2.5rem;
+    font-size: 18px;
+    margin-top: 12px;
+    border-radius: 50px;
+    margin-left: 30px;
+    color: #ffffff;
+    background-color: #0c202e;
+    border: 0px;
+    transition-duration: 0.3s;
+    font-weight: 500;
+}
+.slide-two-btn:hover{
+    background-color: #091014;
+}
+
+/* slide three */
+.slide-three{
+    background: #914cff;
+    background-image: url(../../../assets/images/slide-one-three.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slide-three h2{
+    font-size: 50px;
+    color: white;
+    font-weight: 800;
+}
+.slide-three p{
+    font-size: 16px;
+    color: #e2e2e2;
+    font-weight: 500;
+}
+.slide-three-btn{
+    padding: 0.65rem 2.5rem;
+    font-size: 18px;
+    margin-top: 12px;
+    border-radius: 50px;
+    margin-left: 30px;
+    color: #ffffff;
+    background-color: #290944;
+    border: 0px;
+    transition-duration: 0.3s;
+    font-weight: 500;
+}
+.slide-three-btn:hover{
+    background-color: #360944;
+}

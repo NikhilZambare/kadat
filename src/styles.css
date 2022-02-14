@@ -1,1 +1,139 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+body {
+    font-family: 'Poppins';font-size: 22px;
+}
+.navbar{
+    padding: 0px;
+    background: white !important;
+    font-size: 16px;
+    box-shadow: -0.0625rem 0 0.625rem 0 rgb(0 0 0 / 7%), 0.3125rem 1.25rem 2.5rem 0 rgb(0 0 0 / 4%) !important;
+}
+.navbar .active{
+  color: #0090e7 !important;
+  font-weight: 600 !important;
+}
+.navbar .subactive{
+  color: #ffffff;
+  background-color: #0090e7;
+}
+.mlr{
+    margin: 0px 10px;
+}
+.brand-logo{
+    width: 20%;
+}
+.brand-logo img{
+    width: 112px;
+}
+.dropdown-menu{
+    min-width: 12.5rem;
+    border-radius: 10px;
+    border: none;
+    box-shadow: -0.0625rem 0 0.625rem 0 rgb(0 0 0 / 7%), 0.3125rem 1.25rem 2.5rem 0 rgb(0 0 0 / 4%) !important;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #ffffff;
+    background-color: #0090e7;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #0090e7;
+    font-weight: 600;
+}
+
+.navbar-mobile-no{
+    background: #fe9100;
+    color: white;
+    padding: 6px 20px;
+    border-radius: 50px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.navbar-mobile-no:hover{
+    background: #0090e7;
+}
+
+ul{
+    padding-left: 0px
+}
+
+.data-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* product section */
+
+.products-section{
+    padding: 36px 0px;
+}
+.products-section-title{
+   text-align: center;
+   font-weight: 700;
+   color: #008ee3;
+   margin: 0px;
+}
+.products-section-title .orange{
+   color: #fe9100;
+}
+.products-section-dsc{
+   text-align: center;
+   font-size: 16px;
+}
+.products{
+   border: 2px solid #ededed;
+   border-radius: 4px;
+ }
+ .products img{
+     width: 100%;
+ }
+ .products-data{
+   padding: 10px 10px 5px 10px;
+ }
+ .products-title{
+   font-size: 18px;
+   color: #323232;
+   font-weight: 600;
+   margin: 0px;
+ }
+ .products-price{
+   font-size: 18px;
+   color: #286cff;
+   font-weight: 700;
+ }
+ .products-dsc{
+   font-size: 16px;
+   color: #2e2e2e;
+   font-weight: 500;
+ }
+ .w-100{
+   width: 100%;
+ }
+ .products .type{
+   font-size: 15px;
+   font-weight: 500;
+   color: #fe9100;
+ }
+ .products-btn{
+   padding: 0.45rem 0.5rem;
+   font-size: 16px;
+   border-radius: 4px;
+   color: #fbfbfb;
+   background-color: #0d162a;
+   border: 0px;
+   transition-duration: 0.3s;
+ }
+ .products-btn:hover{
+   background-color: #fe9100;
+ }
+ .products:hover{
+     box-shadow: -0.0625rem 0 0.625rem 0 rgb(0 0 0 / 7%), 0.3125rem 1.25rem 2.5rem 0 rgb(0 0 0 / 4%);
+ }
+ .mt-70px{
+   margin-top: 70px;
+ }

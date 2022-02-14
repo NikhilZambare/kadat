@@ -1,0 +1,30 @@
+.contact-banner{
+    background: url(../../assets/images/contact-banner-bg.svg);
+    padding: 30px 0px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    min-height: 300px;
+}
+.contact-banner .title{
+    font-weight: 700;
+    font-size: 42px;
+    color: white;
+}
+.contact-banner .dsc{
+    color: #2e2e2e;
+    font-weight: 500;
+    font-size: 18px;
+}
+.contact-data{
+    padding: 10px;
+    border-bottom: 2px solid #fe9100;
+}
+.contact-data .title{
+    margin: 0px;
+    color: #1d257e;
+    font-weight: 700;
+}
+.contact-data .dsc{
+    font-size: 18px;
+}
